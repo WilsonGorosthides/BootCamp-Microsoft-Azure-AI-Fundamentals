@@ -1,0 +1,21 @@
+{
+    "input_data": {
+      "data": [
+         {
+           "day": 10,
+           "mnth": 5,   
+           "year": 2023,
+           "season": 1,
+           "holiday": 0,
+           "weekday": 5,
+           "workingday": 1,
+           "weathersit": 1, 
+           "temp": 0.7, 
+           "atemp": 0.65,
+           "hum": 0.55,
+           "windspeed": 0.25 
+         }
+       ]
+    }
+  }
+  
