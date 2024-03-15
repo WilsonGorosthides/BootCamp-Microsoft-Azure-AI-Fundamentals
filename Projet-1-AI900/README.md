@@ -22,7 +22,7 @@ Passo a passo está na documentação oficial da Microsoft: [aqui](https://micro
 5. Criar Modelo para testar ponto de extremidade.
 
 ## Teste
-'''
+´
 {
   "input_data": {
     "data": [
@@ -44,13 +44,13 @@ Passo a passo está na documentação oficial da Microsoft: [aqui](https://micro
   }
 }
 
-'''
+´
 ## Resultado.
-'''
+´
 [
   849.588704557757
 ]
-'''
+´
 6. Este JSON contém dados de entrada para o modelo de regressão. Agora, vamos enviar esses dados para o ponto de extremidade do modelo e ver qual é a previsão resultante.
 
 Vamos analisar os dados de entrada que fornecemos ao modelo:
