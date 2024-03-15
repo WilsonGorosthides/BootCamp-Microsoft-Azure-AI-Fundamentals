@@ -55,18 +55,18 @@ Passo a passo está na documentação oficial da Microsoft: [aqui](https://micro
 
 Vamos analisar os dados de entrada que fornecemos ao modelo:
 
-"day": 10: Este valor representa o dia do mês.
-"mnth": 5: Refere-se ao mês (maio).
-"year": 2023: Indica o ano.
-"season": 1: Representa a estação do ano (no caso, primavera).
-"holiday": 0: Indica se é feriado ou não (0 para não feriado).
-"weekday": 5: Refere-se ao dia da semana (sexta-feira).
-"workingday": 1: Indica se é dia útil ou não (1 para dia útil).
-"weathersit": 1: Representa a condição climática (1 para clima limpo).
-"temp": 0.7: É a temperatura normalizada.
-"atemp": 0.65: É a temperatura aparente normalizada.
-"hum": 0.55: É a umidade normalizada.
-"windspeed": 0.25: É a velocidade do vento normalizada.
+* "day": 10: Este valor representa o dia do mês.
+* "mnth": 5: Refere-se ao mês (maio).
+* "year": 2023: Indica o ano.
+* "season": 1: Representa a estação do ano (no caso, primavera).
+* "holiday": 0: Indica se é feriado ou não (0 para não feriado).
+* "weekday": 5: Refere-se ao dia da semana (sexta-feira).
+* "workingday": 1: Indica se é dia útil ou não (1 para dia útil).
+* "weathersit": 1: Representa a condição climática (1 para clima limpo).
+* "temp": 0.7: É a temperatura normalizada.
+* "atemp": 0.65: É a temperatura aparente normalizada.
+* "hum": 0.55: É a umidade normalizada.
+* "windspeed": 0.25: É a velocidade do vento normalizada.
 
 7. Conclusão:
 Essa previsão indica que, com os dados de entrada fornecidos, o modelo estimou que haveria aproximadamente  849 aluguéis de bicicletas para o dia específico e as condições climáticas descritas. Essa previsão é útil para entender como o modelo responde a diferentes conjuntos de dados de entrada e pode ser usado para análises e tomada de decisões relacionadas ao aluguel de bicicletas.
