@@ -10,3 +10,24 @@ Passo a passo está na documentação oficial da Microsoft:
 
 [Analise imagens no Vision Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
 
+1. Crie um recurso
+2. Selecionar AI + Machine Learning
+3. Crie um Serviço Cognitivo no Azure
+4. Acessar o portal do [Vision Studio](https://portal.vision.cognitive.azure.com/)
+
+### Serviços de visão
+* Detectar rostos no Vision Studio
+1. Ir em Home > Face > Detect Faces in an image:
+2. escolha uma foto ou faça upload
+[teste de Detectar Face](outputs/output-img1.png)
+
+* Ler texto no Vision Studio
+
+1. Ir em Optical Character Recognition > Extract Text from images
+2. escolha uma foto ou faça upload
+[teste Leitura de texto em imagens](outputs/output-img2.png)
+
+* Analise imagens no Vision Studio
+1.  Ir em Image Analysis > Add captions to images
+2. escolha uma foto ou faça upload
+[teste de Analise de imagens](outputs/output-img3.png)
