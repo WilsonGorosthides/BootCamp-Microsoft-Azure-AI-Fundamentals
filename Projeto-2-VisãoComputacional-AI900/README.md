@@ -19,15 +19,16 @@ Passo a passo está na documentação oficial da Microsoft:
 * Detectar rostos no Vision Studio
 1. Ir em Home > Face > Detect Faces in an image:
 2. escolha uma foto ou faça upload
-[teste de Detectar Face](outputs/output-img1.png)
+   <img src="outputs/output-img1.png" alt="teste de Detectar Face">
+
 
 * Ler texto no Vision Studio
 
 1. Ir em Optical Character Recognition > Extract Text from images
 2. escolha uma foto ou faça upload
-[teste Leitura de texto em imagens](outputs/output-img2.png)
+    <img src="outputs/output-img2.png" alt="teste Leitura de texto em imagens">
 
 * Analise imagens no Vision Studio
 1.  Ir em Image Analysis > Add captions to images
 2. escolha uma foto ou faça upload
-[teste de Analise de imagens](outputs/output-img3.png)
+    <img src="outputs/output-img3.png" alt="teste de Analise de imagens">
