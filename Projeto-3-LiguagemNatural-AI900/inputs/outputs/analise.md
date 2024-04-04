@@ -6,7 +6,6 @@ Tired hotel with poor service
 
 ## Sentimento 1   
 ``` 
-´´´
 {
     "documents": [
         {
@@ -149,12 +148,13 @@ Tired hotel with poor service
     "errors": [],
     "modelVersion": "2022-11-01"
 }
-´´´
 ```
 ## Frase 2
  Muito barulhento e os quartos são pequenos The Lombard Hotel, São Francisco, EUA 05/09/2018 O hotel está localizado na rua Lombard, que é uma rua muito movimentada de SEIS pistas, diretamente da Ponte Golden Gate. Tráfego desde o início da manhã até tarde da noite, especialmente nos finais de semana. O ruído não seria tão ruim se os quartos fossem melhor isolados, mas não são. Tive que colocar algodão nos ouvidos para conseguir dormir – estava cansado demais para aproveitar a cidade no dia seguinte. Os quartos são MINÚSCULOS. Escolhi o quarto porque tinha duas camas queen size – mas o quarto mal tinha espaço para acomodá-las. Com uma família de quatro pessoas na sala, era apertado. Com tudo isso dito, os quartos são limpos e eles fizeram um esforço para atualizá-los. O hotel fica no bairro de Marina, com muitos bons lugares para comer, a uma curta caminhada do Presidio. Pode ser um bom hotel para jovens adultos que ficam acordados até tarde com um orçamento limitado
 
- ´´´
+ Sentimento 2
+ 
+ ```
  {
     "documents": [
         {
@@ -455,4 +455,4 @@ Tired hotel with poor service
     "errors": [],
     "modelVersion": "2022-11-01"
 }
- ´´´
+ ```
