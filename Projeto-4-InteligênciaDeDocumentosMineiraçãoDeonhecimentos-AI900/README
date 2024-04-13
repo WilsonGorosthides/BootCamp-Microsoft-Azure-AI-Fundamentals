@@ -1,6 +1,5 @@
 # Projeto-04-AI900
 ## Inteligência de Documentos e Mineração de Conhecimento
-## Objetivo 
 ### Objetivo: Criar e utilizar um índice do Azure AI Search para analisar dados de uma fonte, enriquecendo-os com habilidades de IA e revisando os resultados em uma Loja de Conhecimento.
 
 Passo a passo está na documentação oficial da Microsoft: [Explore um índice do Azure AI Search (UI)](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html)
