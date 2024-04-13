@@ -1,0 +1,44 @@
+# Projeto-04-AI900
+## Inteligência de Documentos e Mineração de Conhecimento
+## Objetivo 
+### Objetivo: Criar e utilizar um índice do Azure AI Search para analisar dados de uma fonte, enriquecendo-os com habilidades de IA e revisando os resultados em uma Loja de Conhecimento.
+
+Passo a passo está na documentação oficial da Microsoft: [Explore um índice do Azure AI Search (UI)](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html)
+
+
+1. Crie um Recurso do Azure AI Search:
+    
+    * Entre no portal do Azure e clique em "+ Criar um recurso".
+    * Procure por "Azure AI Search" e crie um recurso com as seguintes configurações:
+        * Assinatura: sua assinatura do Azure.
+        * Grupo de recursos: selecione ou crie um grupo de recursos.
+        * Nome do serviço: um nome exclusivo.
+        * Localização: escolha uma região disponível.
+        * Nível de preços: Básico.
+    * Após a implantação, vá para o recurso criado.
+2. Crie um Recurso de Serviços de IA do Azure:
+
+    * No portal do Azure, clique em "+ Criar um recurso" e procure por "Serviços de IA do Azure".
+    * Crie um plano de serviços de IA do Azure com as mesmas configurações de localização do Azure AI Search.
+3. Crie uma Conta de Armazenamento:
+
+    * No portal do Azure, clique em "+ Criar um recurso" e procure por "Conta de Armazenamento".
+    * Configure a conta de armazenamento com as configurações padrão, incluindo o acesso anônimo de Blob habilitado.
+4. Configure o Armazenamento de Dados:
+
+    * Crie um contêiner na conta de armazenamento para armazenar os dados de avaliação, como "Coffee-Reviews".
+    * Faça o upload dos arquivos de avaliação para o contêiner criado.
+5. Indexe os Documentos:
+
+    * No recurso do Azure AI Search, selecione "Importar dados" e escolha "Azure Blob Storage" como fonte de dados.
+    * Conecte-se à sua conta de armazenamento e selecione o contêiner de avaliações.
+    * Configure as opções de enriquecimento de dados, como habilidades cognitivas e campos a serem indexados.
+    * Crie um índice e um indexador para os dados importados.
+6. Consulte o Índice:
+
+    * Use o Search Explorer no portal do Azure para testar consultas no seu índice.
+    * Escreva consultas JSON para pesquisar documentos e filtrar resultados por critérios como localização ou sentimento.
+7. Revise o Armazenamento de Conhecimento:
+
+    * Acesse o armazenamento de conhecimento associado ao Azure AI Search para visualizar os dados enriquecidos e as projeções.
+    * Explore as tabelas e informações extraídas das avaliações usando o portal do Azure.
